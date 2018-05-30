@@ -29,5 +29,5 @@
     c3:fc:43:27:39:1d:87:27:a8:e4:22:f4:5e:0f:10:
     56:2a:90:88:63:a0:a9:3a:a3:d6:13:b5:ad:a1:a3:
     f2:9b"""^^xsd:hexBinary;
-       :exponent 65537 ;
+       cert:exponent 65537 ;
       ] .
