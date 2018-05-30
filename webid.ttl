@@ -6,7 +6,7 @@
    foaf:primaryTopic <#me> .
 
 <#me> a foaf:Person ;
-   foaf:name "Jan Forberg" .
+   foaf:name "Jan Forberg";
    :key [ a :RSAPublicKey;
        rdfs:label "made on 23 November 2011 on my laptop";
        :modulus "00:97:8c:d2:45:ad:d1:1f:01:8d:32:1d:2a:96:d5:
