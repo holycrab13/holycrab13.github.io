@@ -4,10 +4,10 @@
 @prefix rdfs: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 <> a foaf:PersonalProfileDocument ;
-   foaf:maker <#me> ;
-   foaf:primaryTopic <#me> .
+   foaf:maker <https://holycrab13.github.io/> ;
+   foaf:primaryTopic <https://holycrab13.github.io/> .
 
-<#me> a foaf:Person ;
+<https://holycrab13.github.io/> a foaf:Person ;
    foaf:name "Jan Forberg";
    :key [ a :RSAPublicKey;
        rdfs:label "made on 23 November 2011 on my laptop";
