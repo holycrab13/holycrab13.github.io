@@ -7,7 +7,7 @@
 
 <#me> a foaf:Person ;
    foaf:name "Jan Forberg" .
-   cert:key [ a :RSAPublicKey;
+   cert:key [ a cert:RSAPublicKey;
        rdfs:label "made on 23 November 2011 on my laptop";
        cert:modulus "00:97:8c:d2:45:ad:d1:1f:01:8d:32:1d:2a:96:d5:
     e7:8b:fc:2d:e5:40:fc:2b:df:f1:a1:e4:6e:f3:c0:
