@@ -1,14 +1,18 @@
 @prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ns1:	<holycrab13.github.io/webid.ttl#> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
-ns1:this	rdf:type	foaf:Agent ;
-	foaf:name	"Jan Forberg" ;
-	foaf:mbox_sha1sum	<mailto:Ug/iXC0E0Er+ifydIAeVT+yQbz8=> .
 @prefix vcard2006:	<http://www.w3.org/2006/vcard/ns#> .
-ns1:this	vcard2006:organization-name	"X.509 Client Certificate" .
 @prefix cert:	<http://www.w3.org/ns/auth/cert#> .
-ns1:this	cert:key	ns1:PublicKey .
-ns1:PublicKey	rdf:type	cert:RSAPublicKey .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
-ns1:PublicKey	cert:exponent	"65537"^^xsd:int ;
-	cert:modulus	"c2486c6dc0128589b1954206e51a82a3f87d6c39f8bfb87dfba5a2018852901194c03aaedf310cccad4d64269bb893dff8e87e827fc22f1f5f4c369664c26288deed380e13e6cd3b1e71b2382180e87e546e5542b9568802d41500c671a1655636ba04c3671780a9d9953502ec8d4c9dbf96420754c8fb2c0d37554483e6c6f18bb691c001ffcc1293a802205be6859667ed423ac3ae4d7283437f7c52b9b0570ae3a1b427208573eabd92c031360647a5a420dbc220dea03462fd8db25c291a6ea591a555db7c48504e0e44970a0147ff22c950fed17a4ac2da0a988f3a85d42589a2daaa73b00165672920087df6372a9e8ef345344eb0b250737951103979"^^xsd:hexBinary .
+
+ns1:this
+	rdf:type	foaf:Agent ;
+	foaf:name	"Jan Forberg" ;
+	foaf:mbox	<mailto:jan.forberg@hotmail.de> ;
+	foaf:mbox_sha1sum	<mailto:Ug/iXC0E0Er+ifydIAeVT+yQbz8=> ;
+	vcard2006:organization-name	"X.509 Client Certificate" ;
+	cert:key	ns1:PublicKey .
+ns1:PublicKey
+	rdf:type	cert:RSAPublicKey ;
+	cert:exponent	"65537"^^xsd:int ;
+	cert:modulus	"c2486c6dc0128589b1954206e51a82a3f87d6c39f8bfb87dfba5a2018852901194c03aaedf310cccad4d64269bb893dff8e87e827fc22f1f5f4c369664c26288deed380e13e6cd3b1e71b2382180e87e546e5542b9568802d41500c671a1655636ba04c3671780a9d9953502ec8d4c9dbf96420754c8fb2c0d37554483e6c6f18bb691c001ffcc1293a802205be6859667ed423ac3ae4d7283437f7c52b9b0570ae3a1b427208573eabd92c031360647a5a420dbc220dea03462fd8db25c291a6ea591a555db7c48504e0e44970a0147ff22c950fed17a4ac2da0a988f3a85d42589a2daaa73b00165672920087df6372a9e8ef345344eb0b250737951103979"^^xsd:hexBinary , "b377dfcd7544b80abfc4f6765b73454c9d2728b98d6f7784de58de66286a7655ee2716d9e5c1d0f398f7de490f8c790a872c1bdaff4e2d8b7269f6a4bdd2ed3cb797d3fa3c5285468ff220249b08d2cf3ce129e2e3867b6eb93f3a5a68c495102d5c42c65fa1a7b1a6a74fc690da801cca2c016b03fa311a05ec4114c330f01716b39a3286fbf31a46c4158733836bc9388044f32e3f876cb170a743ae2e69f35cf6ec01e54cf15655ed2711108134dd19732ddd395fecb500d51f1d5caca6035c3ca4b5acdd9ec9e26aec3645756f5e8d122f1f1af190530980f7de3b67fa0b5f81d4c18a06d2bd3785b8d6c3fbb1a107a5142b26f4833e3e9980050f1fad17"^^xsd:hexBinary .
