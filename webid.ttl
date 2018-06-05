@@ -1,18 +1,16 @@
-@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix ns1:	<holycrab13.github.io/webid.ttl#> .
-@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
-@prefix vcard2006:	<http://www.w3.org/2006/vcard/ns#> .
-@prefix cert:	<http://www.w3.org/ns/auth/cert#> .
-@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix cert: <http://www.w3.org/ns/auth/cert#> .
+@prefix rdfs: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-ns1:this
-	rdf:type	foaf:Agent ;
-	foaf:name	"Jan Forberg" ;
-	foaf:mbox	<mailto:jan.forberg@hotmail.de> ;
-	foaf:mbox_sha1sum	<mailto:Ug/iXC0E0Er+ifydIAeVT+yQbz8=> ;
-	vcard2006:organization-name	"X.509 Client Certificate" ;
-	cert:key	ns1:PublicKey .
-ns1:PublicKey
-	rdf:type	cert:RSAPublicKey ;
-	cert:exponent	"65537"^^xsd:int ;
-	cert:modulus	"c2486c6dc0128589b1954206e51a82a3f87d6c39f8bfb87dfba5a2018852901194c03aaedf310cccad4d64269bb893dff8e87e827fc22f1f5f4c369664c26288deed380e13e6cd3b1e71b2382180e87e546e5542b9568802d41500c671a1655636ba04c3671780a9d9953502ec8d4c9dbf96420754c8fb2c0d37554483e6c6f18bb691c001ffcc1293a802205be6859667ed423ac3ae4d7283437f7c52b9b0570ae3a1b427208573eabd92c031360647a5a420dbc220dea03462fd8db25c291a6ea591a555db7c48504e0e44970a0147ff22c950fed17a4ac2da0a988f3a85d42589a2daaa73b00165672920087df6372a9e8ef345344eb0b250737951103979"^^xsd:hexBinary , "b377dfcd7544b80abfc4f6765b73454c9d2728b98d6f7784de58de66286a7655ee2716d9e5c1d0f398f7de490f8c790a872c1bdaff4e2d8b7269f6a4bdd2ed3cb797d3fa3c5285468ff220249b08d2cf3ce129e2e3867b6eb93f3a5a68c495102d5c42c65fa1a7b1a6a74fc690da801cca2c016b03fa311a05ec4114c330f01716b39a3286fbf31a46c4158733836bc9388044f32e3f876cb170a743ae2e69f35cf6ec01e54cf15655ed2711108134dd19732ddd395fecb500d51f1d5caca6035c3ca4b5acdd9ec9e26aec3645756f5e8d122f1f1af190530980f7de3b67fa0b5f81d4c18a06d2bd3785b8d6c3fbb1a107a5142b26f4833e3e9980050f1fad17"^^xsd:hexBinary .
+<> a foaf:PersonalProfileDocument ;
+   foaf:maker <#this> ;
+   foaf:primaryTopic <#this> .
+
+<#this> a foaf:Person ;
+   foaf:name "Jan Forberg";
+   cert:key [ 
+       a cert:RSAPublicKey;
+       rdfs:label "made on 23 November 2011 on my laptop";
+       cert:modulus "00978cd245add11f018d321d2a96d5e78bfc2de540fc2bdff1a1e46ef3c015a5855155d962dcc538e7bd2927825b2b6fd1048dde7dc2b2acdbb9602d87eaa03461a5aea48de59709de9097070146ba8aa3d436780fea7f328dd3c8df0d7b359e38b9c2ec37ee2dad309cdc878ff2ce4dda48d683c122894d2d892069c77c72fff977c10bfce614e243e5b4c919de6de5e0d26bfae9e15385a420e31cdd527388b31b7aa4cab3b4753f00f7bb58ac4472d5d129b325a539ec02df5c660311030c452be05dbb2af52c0b2d6cbc3843ef0dd87bbcf558f546c82045fdd5d27b1cc1e5c3fc4327391d8727a8e422f45e0f10562a908863a0a93aa3d613b5ada1a3f29b"^^xsd:hexBinary;
+       cert:exponent "65537"^^xsd:integer;
+      ] .
