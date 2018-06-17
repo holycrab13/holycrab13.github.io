@@ -9,7 +9,7 @@
 
 <#this> a foaf:Person ;
    foaf:name "Jan Forberg";
-   foaf:img "https://github.com/holycrab13/holycrab13.github.io/edit/master/me.png";
+   foaf:img "https://holycrab13.github.io/me.png";
    cert:key [ 
        a cert:RSAPublicKey;
        rdfs:label "made on 23 November 2011 on my laptop";
