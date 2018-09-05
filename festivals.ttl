@@ -2,7 +2,7 @@
 @prefix dbp: <http://dbpedia.org/property/> .
 @prefix dbo: <http://dbpedia.org/ontology/> .
 
-<https://holycrab13.github.io/festivals/Rock_in_Caputh>
+<https://holycrab13.github.io/festivals.ttl#Rock_in_Caputh>
   rdfs:label "Rock in Caputh"@de ;
   dbp:homepage <http://www.rockincaputh.de/kontakt/> ;
   dbp:contact "Stefan"@de ;
@@ -10,7 +10,7 @@
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Campus_Open_Air>
+<https://holycrab13.github.io/festivals.ttl#Campus_Open_Air>
   dbo:location <http://dbpedia.org/resource/G%C3%B6rlitz> ;
   rdfs:label "Campus Open Air"@de ;
   dbp:homepage <http://campusopenair.com> ;
@@ -18,21 +18,21 @@
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Campusfestival>
+<https://holycrab13.github.io/festivals.ttl#Campusfestival>
   dbo:location <http://dbpedia.org/resource/Mittweida> ;
   rdfs:label "Campusfestival"@de ;
   dbo:emailAddress "cf@hs-mittweida.de"@de ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Karben_Open_Air>
+<https://holycrab13.github.io/festivals.ttl#Karben_Open_Air>
   dbo:location <http://dbpedia.org/resource/Karben> ;
   rdfs:label "Karben Open Air"@de ;
   dbp:homepage <http://www.karbenopenair.de/bandbewerbung.html> ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Rostock_Rockt>
+<https://holycrab13.github.io/festivals.ttl#Rostock_Rockt>
   dbo:location <http://dbpedia.org/resource/Rostock> ;
   rdfs:label "Rostock Rockt"@de ;
   dbp:homepage <http://www.rostockrockt.de> ;
@@ -40,7 +40,7 @@
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Rock_den_Lukas>
+<https://holycrab13.github.io/festivals.ttl#Rock_den_Lukas>
   dbo:location <http://dbpedia.org/resource/Bremen> ;
   rdfs:label "Rock den Lukas"@de ;
   dbp:homepage <http://www.rockdenlukas.de/infos/kontakt/> ;
@@ -48,7 +48,7 @@
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/R%C3%BCr_Indoor_Festival>
+<https://holycrab13.github.io/festivals.ttl#R%C3%BCr_Indoor_Festival>
   dbo:location <http://dbpedia.org/resource/Haren,_Groningen> ;
   rdfs:label "Rür Indoor Festival"@de ;
   dbp:homepage <http://www.ruetnrock.de> ;
@@ -56,14 +56,14 @@
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Hafenrock_festival>
+<https://holycrab13.github.io/festivals.ttl#Hafenrock_festival>
   dbo:location <http://dbpedia.org/resource/Hamburg> ;
   rdfs:label "Hafenrock festival"@de ;
   dbo:emailAddress "info@hafenrock.de"@de ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Krach_am_Bach>
+<https://holycrab13.github.io/festivals.ttl#Krach_am_Bach>
   dbo:location <http://dbpedia.org/resource/Beelen> ;
   rdfs:label "Krach am Bach"@de ;
   dbp:homepage <http://www.krachambach.de/kontakt.html> ;
@@ -71,14 +71,14 @@
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Hochschultage>
+<https://holycrab13.github.io/festivals.ttl#Hochschultage>
   dbo:location <http://dbpedia.org/resource/Fulda> ;
   rdfs:label "Hochschultage"@de ;
   dbo:emailAddress "bands@hochschultage.com"@de ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Immerguttrocken>
+<https://holycrab13.github.io/festivals.ttl#Immerguttrocken>
   dbo:location <http://dbpedia.org/resource/Neustrelitz> ;
   rdfs:label "Immerguttrocken"@de ;
   dbp:homepage <http://www.immergutrocken.de/de/kontakt> ;
@@ -86,7 +86,7 @@
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/S%C3%BCdOstRockfestival>
+<https://holycrab13.github.io/festivals.ttl#S%C3%BCdOstRockfestival>
   dbo:location <http://dbpedia.org/resource/Bad_Aibling> ;
   rdfs:label "SüdOstRockfestival"@de ;
   dbp:contact "Larissa"@de ;
@@ -94,20 +94,20 @@
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/SpreewaldRock>
+<https://holycrab13.github.io/festivals.ttl#SpreewaldRock>
   dbo:location <http://dbpedia.org/resource/Drachhausen> ;
   rdfs:label "SpreewaldRock"@de ;
   dbp:homepage <http://www.spreewald-rock-festival.de/bandbewerbungen/> ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Stadtfestival>
+<https://holycrab13.github.io/festivals.ttl#Stadtfestival>
   dbo:location <http://dbpedia.org/resource/Versmold> ;
   rdfs:label "Stadtfestival"@de ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Sommerschein_Festival>
+<https://holycrab13.github.io/festivals.ttl#Sommerschein_Festival>
   dbo:location <http://dbpedia.org/resource/Hofheim,_Hesse> ;
   rdfs:label "Sommerschein Festival"@de ;
   dbp:homepage <http://www.sommerschein.de/> ;
@@ -116,7 +116,7 @@
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Umsonst_und_Drau%C3%9Fen>
+<https://holycrab13.github.io/festivals.ttl#Umsonst_und_Drau%C3%9Fen>
   dbo:location <http://dbpedia.org/resource/Karlovac> ;
   rdfs:label "Umsonst und Draußen"@de ;
   dbp:homepage <http://www.umsonstunddraussen.de/bandbewerbung.html> ;
@@ -124,7 +124,7 @@
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Oakfield>
+<https://holycrab13.github.io/festivals.ttl#Oakfield>
   dbo:location <http://dbpedia.org/resource/Elsdorf> ;
   rdfs:label "Oakfield"@de ;
   dbp:homepage <http://www.oakfieldfestival.de/bewerbung.html> ;
@@ -132,7 +132,7 @@
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Komm_Na_Huus>
+<https://holycrab13.github.io/festivals.ttl#Komm_Na_Huus>
   dbo:location <http://dbpedia.org/resource/Straelen> ;
   rdfs:label "Komm Na Huus"@de ;
   dbp:homepage <http://www.komm-na-huus.de/bands/bandbewerbung> ;
@@ -140,7 +140,7 @@
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Stemweder_OA>
+<https://holycrab13.github.io/festivals.ttl#Stemweder_OA>
   dbo:location <http://dbpedia.org/resource/Stemwede> ;
   rdfs:label "Stemweder OA"@de ;
   dbp:homepage <http://www.jfk-stemwede.de/festival/bewerben.php> ;
@@ -148,14 +148,14 @@
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Rock_den_Deich>
+<https://holycrab13.github.io/festivals.ttl#Rock_den_Deich>
   dbo:location <http://dbpedia.org/resource/Schwanewede> ;
   rdfs:label "Rock den Deich"@de ;
   dbp:homepage <http://www.rockdendeich.de/bandbewerbung/> ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Rumo_Tripot>
+<https://holycrab13.github.io/festivals.ttl#Rumo_Tripot>
   dbo:location <http://dbpedia.org/resource/Neuenrade> ;
   rdfs:label "Rumo Tripot"@de ;
   dbp:homepage <http://rumotripot.de/die-location/> ;
@@ -163,7 +163,7 @@
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Pell_Mell>
+<https://holycrab13.github.io/festivals.ttl#Pell_Mell>
   dbo:location <http://dbpedia.org/resource/Obererbach,_Westerwaldkreis> ;
   rdfs:label "Pell Mell"@de ;
   dbp:homepage <http://www.pell-mell.de/impressum.htm> ;
@@ -171,7 +171,7 @@
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Rockspektakel>
+<https://holycrab13.github.io/festivals.ttl#Rockspektakel>
   dbo:location <http://dbpedia.org/resource/Hamburg> ;
   rdfs:label "Rockspektakel"@de ;
   dbp:homepage <http://www.rockspektakel.de/> ;
@@ -179,14 +179,14 @@
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/BLIND_DATE-Festival_2015>
+<https://holycrab13.github.io/festivals.ttl#BLIND_DATE-Festival_2015>
   dbo:location <http://dbpedia.org/resource/Gelsenkirchen> ;
   rdfs:label "BLIND DATE-Festival 2015"@de ;
   dbo:emailAddress "info@emschertainment.de"@de ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Wilde_M%C3%B6hre>
+<https://holycrab13.github.io/festivals.ttl#Wilde_M%C3%B6hre>
   dbo:location <http://dbpedia.org/resource/Berlin> ;
   rdfs:label "Wilde Möhre"@de ;
   dbp:homepage <http://wildemoehrefestival.de/tickets2016/index.html> ;
@@ -194,7 +194,7 @@
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Rockaue>
+<https://holycrab13.github.io/festivals.ttl#Rockaue>
   dbo:location <http://dbpedia.org/resource/Bonn> ;
   rdfs:label "Rockaue"@de ;
   dbp:homepage <http://www.rockaue.de> ;
@@ -202,7 +202,7 @@
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Rock_am_Dom>
+<https://holycrab13.github.io/festivals.ttl#Rock_am_Dom>
   dbo:location <http://dbpedia.org/resource/Xanten> ;
   rdfs:label "Rock am Dom"@de ;
   dbp:homepage <http://www.hilfe.rockamdom.de/?s=bands> ;
@@ -210,14 +210,14 @@
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/SummerSummit>
+<https://holycrab13.github.io/festivals.ttl#SummerSummit>
   dbo:location <http://dbpedia.org/resource/Oschatz> ;
   rdfs:label "SummerSummit"@de ;
   dbp:homepage <https://summersummit.wordpress.com/line-up/> ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Sommerfestival>
+<https://holycrab13.github.io/festivals.ttl#Sommerfestival>
   dbo:location <http://dbpedia.org/resource/Zeitz> ;
   rdfs:label "Sommerfestival"@de ;
   dbp:homepage <https://www.facebook.com/sommerfestivalzeitz> ;
@@ -225,46 +225,46 @@
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Rock,_um_zu_Helfen>
+<https://holycrab13.github.io/festivals.ttl#Rock,_um_zu_Helfen>
   dbo:location <http://dbpedia.org/resource/Freiberg,_Saxony> ;
   rdfs:label "Rock, um zu Helfen"@de ;
   dbo:emailAddress "bewerbung@rock-um-zu-helfen.de"@de ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Blank_it_festival_by_Fritz>
+<https://holycrab13.github.io/festivals.ttl#Blank_it_festival_by_Fritz>
   dbo:location <http://dbpedia.org/resource/Brandenburg> ;
   rdfs:label "Blank it festival by Fritz"@de ;
   dbp:homepage <http://www.blankit.de/bewerbung/> ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Rock_im_Gr%C3%BCnen>
+<https://holycrab13.github.io/festivals.ttl#Rock_im_Gr%C3%BCnen>
   dbo:location <http://dbpedia.org/resource/Berlin> ;
   rdfs:label "Rock im Grünen"@de ;
   dbo:emailAddress "info@rockimgruenen.de"@de ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/rocko_del_schlacko>
+<https://holycrab13.github.io/festivals.ttl#rocko_del_schlacko>
   rdfs:label "rocko del schlacko"@de ;
   dbp:homepage <http://www.rdels.de> ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/UniAir>
+<https://holycrab13.github.io/festivals.ttl#UniAir>
   dbo:location <http://dbpedia.org/resource/Dresden> ;
   rdfs:label "UniAir"@de ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Pixxen>
+<https://holycrab13.github.io/festivals.ttl#Pixxen>
   rdfs:label "Pixxen"@de ;
   dbo:emailAddress "info@pixxen.de"@de ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Rock_im_Park_Leuben>
+<https://holycrab13.github.io/festivals.ttl#Rock_im_Park_Leuben>
   dbo:location <http://dbpedia.org/resource/Dresden> ;
   rdfs:label "Rock im Park Leuben"@de ;
   dbo:emailAddress "info@rockinleuben.de"@de ;
@@ -272,94 +272,94 @@
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Gurtenfestival>
+<https://holycrab13.github.io/festivals.ttl#Gurtenfestival>
   dbo:location <http://dbpedia.org/resource/Bern> ;
   rdfs:label "Gurtenfestival"@de ;
   dbp:homepage <https://www.facebook.com/GurtenfestivalBern> ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Rock_im_Allerpark>
+<https://holycrab13.github.io/festivals.ttl#Rock_im_Allerpark>
   rdfs:label "Rock im Allerpark"@de ;
   dbp:homepage <http://www.rockimallerpark.de> ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/in-Core_Festival>
+<https://holycrab13.github.io/festivals.ttl#in-Core_Festival>
   dbo:location <http://dbpedia.org/resource/Saarland> ;
   rdfs:label "in-Core Festival"@de ;
   dbp:homepage <https://www.facebook.com/InCoreFestival> ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/antattack_festival>
+<https://holycrab13.github.io/festivals.ttl#antattack_festival>
   dbo:location <http://dbpedia.org/resource/Neunkirchen_District,_Austria> ;
   rdfs:label "antattack festival"@de ;
   dbp:homepage <http://njh.me/www.antattack-festival.de> ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/spack!_Festival>
+<https://holycrab13.github.io/festivals.ttl#spack!_Festival>
   rdfs:label "spack! Festival"@de ;
   dbp:homepage <http://spack-festival.de> ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Zeltfestival>
+<https://holycrab13.github.io/festivals.ttl#Zeltfestival>
   dbo:location <http://dbpedia.org/resource/Lake_Constance> ;
   rdfs:label "Zeltfestival"@de ;
   dbp:homepage <http://www.zeltfestival-konstanz-kreuzlingen.de> ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/watzstock>
+<https://holycrab13.github.io/festivals.ttl#watzstock>
   rdfs:label "watzstock"@de ;
   dbp:homepage <http://www.watzstock.de/kontakt/bandbewerbung> ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Tunix_open_Air>
+<https://holycrab13.github.io/festivals.ttl#Tunix_open_Air>
   dbo:location <http://dbpedia.org/resource/Munich> ;
   rdfs:label "Tunix open Air"@de ;
   dbp:homepage <https://www.facebook.com/TUNIXOpenAir> ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Stadtwerke_Fest>
+<https://holycrab13.github.io/festivals.ttl#Stadtwerke_Fest>
   dbo:location <http://dbpedia.org/resource/Potsdam> ;
   rdfs:label "Stadtwerke Fest"@de ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Waldstock>
+<https://holycrab13.github.io/festivals.ttl#Waldstock>
   dbo:location <http://dbpedia.org/resource/Pegnitz_(river)> ;
   rdfs:label "Waldstock"@de ;
   dbo:emailAddress "bands@waldstock.info"@de ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Rock_of_Ages>
+<https://holycrab13.github.io/festivals.ttl#Rock_of_Ages>
   dbo:location <http://dbpedia.org/resource/Seebronn> ;
   rdfs:label "Rock of Ages"@de ;
   dbo:emailAddress "bands@heavy-oder-was.de"@de ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Fusion>
+<https://holycrab13.github.io/festivals.ttl#Fusion>
   rdfs:label "Fusion"@de ;
   dbp:homepage <https://kulturkosmos.org/de/artistapp/> ;
   dbo:emailAddress "booking@fusion-festival.de"@de ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Sweetopenair>
+<https://holycrab13.github.io/festivals.ttl#Sweetopenair>
   dbo:location <http://dbpedia.org/resource/Lower_Saxony> ;
   rdfs:label "Sweetopenair"@de ;
   dbp:homepage <http://sweet-open-air.de/#contact> ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Juicy_Beats>
+<https://holycrab13.github.io/festivals.ttl#Juicy_Beats>
   dbo:location <http://dbpedia.org/resource/Dortmund> ;
   rdfs:label "Juicy Beats"@de ;
   dbp:homepage <http://www.juicybeats.net/de> ;
@@ -367,7 +367,7 @@
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Taubertal_Festival>
+<https://holycrab13.github.io/festivals.ttl#Taubertal_Festival>
   dbo:location <http://dbpedia.org/resource/Rothenburg_ob_der_Tauber> ;
   rdfs:label "Taubertal Festival"@de ;
   dbp:homepage <http://taubertal-festival.com/cms/kontakt/> ;
@@ -375,7 +375,7 @@
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/OpenOhr>
+<https://holycrab13.github.io/festivals.ttl#OpenOhr>
   dbo:location <http://dbpedia.org/resource/Mainz> ;
   rdfs:label "OpenOhr"@de ;
   dbp:homepage <http://www.openohr.de/startseite.html> ;
@@ -383,7 +383,7 @@
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Kling_One>
+<https://holycrab13.github.io/festivals.ttl#Kling_One>
   dbo:location <http://dbpedia.org/resource/Hohenroda> ;
   rdfs:label "Kling One"@de ;
   dbp:homepage <http://kling-festival.de/?page_id=14> ;
@@ -391,14 +391,14 @@
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Rock_vs._Metal>
+<https://holycrab13.github.io/festivals.ttl#Rock_vs._Metal>
   dbo:location <http://dbpedia.org/resource/Lauscha> ;
   rdfs:label "Rock vs. Metal"@de ;
   dbp:homepage <http://www.festivalticker.de/festivals/rock_vs_metal_festival/bandbewerbungen/> ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/NIG_Rock>
+<https://holycrab13.github.io/festivals.ttl#NIG_Rock>
   dbo:location <http://dbpedia.org/resource/Bad_Bederkesa> ;
   rdfs:label "NIG Rock"@de ;
   dbp:homepage <http://nigrock.jimdo.com/bandbewerbung/> ;
@@ -406,7 +406,7 @@
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Lakeside_Festival>
+<https://holycrab13.github.io/festivals.ttl#Lakeside_Festival>
   dbo:location <http://dbpedia.org/resource/Hergiswil> ;
   rdfs:label "Lakeside Festival"@de ;
   dbp:homepage <http://www.lakesidefestival.ch/information/kontakt/bandbewerbung.html> ;
@@ -414,117 +414,117 @@
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Mai-City-Festival>
+<https://holycrab13.github.io/festivals.ttl#Mai-City-Festival>
   dbo:location <http://dbpedia.org/resource/Fa%C3%9Fberg> ;
   rdfs:label "Mai-City-Festival"@de ;
   dbp:homepage <http://www.mai-city-festival.de/impressum/> ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Soundgarden_Festival>
+<https://holycrab13.github.io/festivals.ttl#Soundgarden_Festival>
   dbo:location <http://dbpedia.org/resource/Frankfurt>, <http://dbpedia.org/resource/Bad_Nauheim> ;
   rdfs:label "Soundgarden Festival"@de ;
   dbp:homepage <http://soundgarden-festival.de/index.php/infos/impressum> ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Riverside_Festival>
+<https://holycrab13.github.io/festivals.ttl#Riverside_Festival>
   rdfs:label "Riverside Festival"@de ;
   dbo:emailAddress "booking@riverside-openair.de"@de ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Anti_Establishment_Festival>
+<https://holycrab13.github.io/festivals.ttl#Anti_Establishment_Festival>
   rdfs:label "Anti Establishment Festival"@de ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Bergfunk_Open_Air_>
+<https://holycrab13.github.io/festivals.ttl#Bergfunk_Open_Air_>
   rdfs:label "Bergfunk Open Air "@de ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/3._Dresdner_Thanks_Jimi_Festival>
+<https://holycrab13.github.io/festivals.ttl#3._Dresdner_Thanks_Jimi_Festival>
   rdfs:label "3. Dresdner Thanks Jimi Festival"@de ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Beat_for_Freaks_Festival>
+<https://holycrab13.github.io/festivals.ttl#Beat_for_Freaks_Festival>
   dbo:location <http://dbpedia.org/resource/Backnang> ;
   rdfs:label "Beat for Freaks Festival"@de ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Ract!festival_2016>
+<https://holycrab13.github.io/festivals.ttl#Ract!festival_2016>
   dbo:location <http://dbpedia.org/resource/Tiefenbach,_Biberach> ;
   rdfs:label "Ract!festival 2016"@de ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Asta_Sommerfest>
+<https://holycrab13.github.io/festivals.ttl#Asta_Sommerfest>
   dbo:location <http://dbpedia.org/resource/Paderborn> ;
   rdfs:label "Asta Sommerfest"@de ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Festival_Contre_Racism>
+<https://holycrab13.github.io/festivals.ttl#Festival_Contre_Racism>
   dbo:location <http://dbpedia.org/resource/Bamberg> ;
   rdfs:label "Festival Contre Racism"@de ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Rock_am_Berg>
+<https://holycrab13.github.io/festivals.ttl#Rock_am_Berg>
   dbo:location <http://dbpedia.org/resource/Merkers-Kieselbach> ;
   rdfs:label "Rock am Berg"@de ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Neuenkrichen_Open_Air>
+<https://holycrab13.github.io/festivals.ttl#Neuenkrichen_Open_Air>
   rdfs:label "Neuenkrichen Open Air"@de ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Bochum_Total>
+<https://holycrab13.github.io/festivals.ttl#Bochum_Total>
   rdfs:label "Bochum Total"@de ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Phunk_Department_open_Air>
+<https://holycrab13.github.io/festivals.ttl#Phunk_Department_open_Air>
   dbo:location <http://dbpedia.org/resource/Solingen> ;
   rdfs:label "Phunk Department open Air"@de ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/No_Borders_No_Nations_Open_Air>
+<https://holycrab13.github.io/festivals.ttl#No_Borders_No_Nations_Open_Air>
   dbo:location <http://dbpedia.org/resource/Basel> ;
   rdfs:label "No Borders No Nations Open Air"@de ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/48er_Festival>
+<https://holycrab13.github.io/festivals.ttl#48er_Festival>
   dbo:location <http://dbpedia.org/resource/Herrenberg> ;
   rdfs:label "48er Festival"@de ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Laut_und_Bunt_Festival_Rathenow>
+<https://holycrab13.github.io/festivals.ttl#Laut_und_Bunt_Festival_Rathenow>
   rdfs:label "Laut und Bunt Festival Rathenow"@de ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Querbeat_Festival>
+<https://holycrab13.github.io/festivals.ttl#Querbeat_Festival>
   dbo:location <http://dbpedia.org/resource/St%C3%BChlingen> ;
   rdfs:label "Querbeat Festival"@de ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Modularfestival>
+<https://holycrab13.github.io/festivals.ttl#Modularfestival>
   dbo:location <http://dbpedia.org/resource/Augsburg> ;
   rdfs:label "Modularfestival"@de ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/und_ab_geht_die_Lutzi!!!Festival>
+<https://holycrab13.github.io/festivals.ttl#und_ab_geht_die_Lutzi!!!Festival>
   dbo:location <http://dbpedia.org/resource/Oerlenbach> ;
   rdfs:label "und ab geht die Lutzi!!!Festival"@de ;
   dbp:homepage <https://www.facebook.com/undabgehtdielutzi/> ;
@@ -532,46 +532,46 @@
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Deep_village_Open_Air>
+<https://holycrab13.github.io/festivals.ttl#Deep_village_Open_Air>
   dbo:location <http://dbpedia.org/resource/Malschwitz> ;
   rdfs:label "Deep village Open Air"@de ;
   dbp:homepage <https://www.facebook.com/deepvillage.openairparty> ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Rock_am_Wind>
+<https://holycrab13.github.io/festivals.ttl#Rock_am_Wind>
   dbo:location <http://dbpedia.org/resource/Werle> ;
   rdfs:label "Rock am Wind"@de ;
   dbp:contact "http://rock-am-wind.de"@de ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Keller_Openair_Festival>
+<https://holycrab13.github.io/festivals.ttl#Keller_Openair_Festival>
   dbo:location <http://dbpedia.org/resource/Radeburg> ;
   rdfs:label "Keller Openair Festival"@de ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Rock_im_Mooer>
+<https://holycrab13.github.io/festivals.ttl#Rock_im_Mooer>
   dbo:location <http://dbpedia.org/resource/Karst%C3%A4dt> ;
   rdfs:label "Rock im Mooer"@de ;
   dbp:homepage <https://www.facebook.com/Rock-im-Moor-122456571167322/> ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Sound_of_the_Forrest>
+<https://holycrab13.github.io/festivals.ttl#Sound_of_the_Forrest>
   rdfs:label "Sound of the Forrest"@de ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Reload_Festival>
+<https://holycrab13.github.io/festivals.ttl#Reload_Festival>
   dbo:location <http://dbpedia.org/resource/Sulingen> ;
   rdfs:label "Reload Festival"@de ;
   dbp:homepage <http://www.reload-festival.de/Home> ;
   dbp:genre <http://dbpedia.org/resource/Rock_music> ;
   a dbo:Venue .
 
-<https://holycrab13.github.io/festivals/Bibertal_Festival>
+<https://holycrab13.github.io/festivals.ttl#Bibertal_Festival>
   dbo:location <http://dbpedia.org/resource/Bibertal> ;
   rdfs:label "Bibertal Festival"@de ;
   dbp:homepage <http://www.biberttal-festival.de/> ;
