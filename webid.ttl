@@ -2,6 +2,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix cert: <http://www.w3.org/ns/auth/cert#> .
 @prefix rdfs: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbo: <http://dbpedia.org/ontology/>
 
 <> a foaf:PersonalProfileDocument ;
    foaf:maker <#this> ;
@@ -10,6 +11,7 @@
 <#this> a foaf:Person ;
    foaf:name "Jan Forberg";
    foaf:img "https://holycrab13.github.io/me.png";
+   a dbo:DBpedian;
    cert:key [ 
        a cert:RSAPublicKey;
        rdfs:label "made on 23 November 2011 on my laptop";
@@ -21,7 +23,7 @@
       rdfs:label "extraction server";
       cert:modulus "C65A227E835DE41C59644545C437646F1F3CBD0EE9695144209089ABB0EA228BE1D7CCBB905F409BD8A9B0F946A5AEB6B1D3E565A6F471A10BB8A1014C4E934CB6C2F9D2D4FB9C7FB4757FA9F831F75F72F1E74E09A64C4BFD49E4C402B25E8255C5BCDB3341F9FD0F5E0260EAF3AA3E7EA8A9663E9CCCCAADA363E8E5072DBDBA432CA273E5C933D38185E1740DF9ACD8C606CD56C485F434F98B1445D845E72AC5D43358358D150CAF4906A2B9093A8403312A81EB368EEDC35D048220EE9E11F6E2E039E7DA1AF3C5E58AE54B7AAFCD16FF808FDF1EFF05599D1156CAF73449DDD7F10324235C4C5065F8D38D2DE45191AC2A2B67E14E2EC2880805D7C153"^^xsd:hexBinary;
       cert:exponent "65537"^^xsd:integer;
-     ] .
+     ] ;
    cert:key [
       a cert:RSAPublicKey;
       rdfs:label "Dell";
