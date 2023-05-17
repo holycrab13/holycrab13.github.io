@@ -17,6 +17,8 @@
    foaf:account <https://dev.databus.dbpedia.org/janni>;
    foaf:account <http://localhost:3000/janni>;
    foaf:account <http://localhost:3000/janfo>;
+   foaf:account <https://databus.dbpedia.org/janfo>;
+   foaf:account <https://databus.dbpedia.org/janni>;
    a dbo:DBpedian;
    cert:key [ 
        a cert:RSAPublicKey;
