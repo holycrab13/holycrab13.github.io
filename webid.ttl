@@ -13,8 +13,10 @@
    foaf:name "Jan Forberg";
    foaf:img <https://holycrab13.github.io/me.png>;
    foaf:account <https://github.com/holycrab13>;
-   foaf:account <https://dev.databus.dbpedia.org/jan>;
-   foaf:account <http://localhost:3000/jan>;
+   foaf:account <https://dev.databus.dbpedia.org/janfo>;
+   foaf:account <https://dev.databus.dbpedia.org/janni>;
+   foaf:account <http://localhost:3000/janni>;
+   foaf:account <http://localhost:3000/janfo>;
    a dbo:DBpedian;
    cert:key [ 
        a cert:RSAPublicKey;
